@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Ficha de Inscrição</title>
+<meta charset="UTF-8">
+<title>Ficha de Inscrição</title>
 </head>
 
 <body>
@@ -11,16 +11,20 @@
 
 <form>
 
-<table align="center">
+<table align="center" cellpadding="8">
 
 <tr>
 <td>Nome do candidato:</td>
-<td colspan="3"><input type="text" name="nome" size="60"></td>
+<td colspan="5">
+<input type="text" name="nome" size="70">
+</td>
 </tr>
 
 <tr>
 <td>Endereço:</td>
-<td colspan="3"><input type="text" name="endereco" size="60"></td>
+<td colspan="5">
+<input type="text" name="endereco" size="70">
+</td>
 </tr>
 
 <tr>
@@ -34,6 +38,7 @@
 <option>São Paulo</option>
 <option>Rio de Janeiro</option>
 <option>Belo Horizonte</option>
+<option>Brasilia</option>
 </select>
 </td>
 
@@ -44,6 +49,7 @@
 <option>SP</option>
 <option>RJ</option>
 <option>MG</option>
+<option>DF</option>
 </select>
 </td>
 </tr>
@@ -53,6 +59,8 @@
 <td><input type="text" name="tel1"></td>
 <td><input type="text" name="tel2"></td>
 <td><input type="text" name="tel3"></td>
+<td></td>
+<td></td>
 </tr>
 
 <tr>
@@ -81,7 +89,9 @@
 </td>
 
 <td>Email:</td>
-<td colspan="3"><input type="email" name="email" size="40"></td>
+<td colspan="3">
+<input type="email" name="email" size="40">
+</td>
 </tr>
 
 <tr>
@@ -96,12 +106,14 @@
 </td>
 
 <td>Senha de acompanhamento:</td>
-<td><input type="password" name="senha"></td>
+<td colspan="3">
+<input type="password" name="senha">
+</td>
 </tr>
 
 <tr>
 <td colspan="6" align="center">
-<br>
+<br><br>
 <input type="submit" value="CADASTRAR">
 </td>
 </tr>
